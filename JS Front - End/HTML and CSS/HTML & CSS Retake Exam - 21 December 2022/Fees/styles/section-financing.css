@@ -1,0 +1,30 @@
+.section-financing {
+	display: flex;
+	padding-bottom: 5em;
+}
+
+.financing-info {
+	flex: 0 1 70%;
+	text-align: left;
+	padding: 0 5em;
+}
+
+.financing-info h5 {
+	padding-bottom: 1em;
+}
+
+.financing-info p:first-of-type {
+	padding-bottom: 1em;
+}
+
+.section-financing .image-wrapper {
+	flex: 0 1 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.section-financing .image-wrapper img {
+	width: 60%;
+	/* align-self: center; */
+}

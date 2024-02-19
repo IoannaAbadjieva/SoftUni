@@ -1,0 +1,39 @@
+.card-list {
+	padding: 0 4em;
+}
+.card {
+	display: flex;
+	padding: 1em 0;
+}
+
+.card .img-container {
+	flex: 0 1 35%;
+}
+.card .img-container img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.card .content {
+	flex: 0 1 65%;
+	padding: 2em 3em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.card .content .description {
+	display: flex;
+	flex-direction: column;
+}
+.card .content .description a {
+	font-weight: 500;
+}
+
+.card .content h3 {
+	font-weight: 700;
+}
+
+.card .content p {
+	color: rgba(107, 89, 89, 1);
+}

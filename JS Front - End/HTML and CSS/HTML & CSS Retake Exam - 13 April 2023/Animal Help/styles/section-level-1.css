@@ -1,0 +1,38 @@
+.section-level-1 {
+	text-align: center;
+	padding: 1em;
+}
+
+.section-level-1 h4 {
+	font-weight: 700;
+	padding-bottom: 1em;
+}
+
+.section-level-1 p {
+	/* font-size: 1.1em; */
+	font-weight: 700;
+	letter-spacing: 0.12rem;
+	max-width: 35em;
+	margin: 0 auto;
+	padding-bottom: 1em;
+}
+
+.card-list {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.card {
+	flex: 0 1 19%;
+	padding: 2em 0;
+}
+
+.card .heading {
+	font-weight: 700;
+	padding: 1em 0;
+}
+
+.icon i {
+	color: rgba(133, 220, 255, 1);
+	font-size: 8em;
+}

@@ -1,0 +1,22 @@
+.footer {
+	padding: 2em;
+	display: flex;
+	justify-content: space-between;
+}
+
+.socials {
+	padding: 0 2em;
+	display: flex;
+	gap: 1em;
+}
+
+.socials i {
+	color: #000;
+}
+
+.socials i:hover {
+	background-color: rgba(173, 226, 223, 1);
+	padding: 1em;
+	border-radius: 0.1em;
+	color: #fff;
+}

@@ -1,0 +1,15 @@
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 0 3em;
+	/* background: url(../image/fitness-main.jpg);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center -13em; */
+}
+
+.site {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}

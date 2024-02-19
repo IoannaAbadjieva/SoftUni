@@ -1,0 +1,46 @@
+.heading-section {
+	display: flex;
+	padding: 0em 4em;
+	background-color: rgba(133, 220, 255, 1);
+}
+
+.heading-section-content {
+	flex: 1 1 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.content {
+	flex-basis: 60%;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	justify-content: center;
+}
+
+.content h3 {
+	font-weight: 700;
+	padding: 0;
+}
+
+.btns {
+	display: flex;
+	justify-content: space-between;
+}
+
+#donate-btn {
+	background-color: rgba(255, 255, 255, 1);
+	color: #000;
+}
+
+.media {
+	flex: 0 1 40%;
+}
+
+.media img {
+	display: block;
+	width: 80%;
+	height: auto;
+	margin: 0 auto;
+}

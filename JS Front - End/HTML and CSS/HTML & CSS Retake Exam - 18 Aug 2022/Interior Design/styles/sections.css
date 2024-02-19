@@ -1,0 +1,167 @@
+.home-design {
+	background: url("../image/image.jpg") center top -20rem;
+	background-size: 100% auto;
+	height: 38rem;
+	display: flex;
+	flex-direction: column;
+	padding: 1.5rem 2rem 0 3rem;
+}
+
+.company-logo {
+	width: 10rem;
+	display: flex;
+	flex-direction: column;
+	padding: 1em;
+	border: 1px solid darkgrey;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo h4::after {
+	display: block;
+	content: "";
+	width: 6rem;
+	height: 1px;
+	border: 1px solid #fff;
+}
+.company-logo h4 {
+	padding-bottom: 0.5em;
+}
+.company-logo p {
+	font-size: 0.6rem;
+}
+
+.home-description {
+	width: 15rem;
+	color: #fff;
+	background: linear-gradient(
+		to right,
+		rgba(159, 150, 142, 1),
+		rgba(178, 171, 165, 1),
+		rgba(203, 200, 196, 1),
+		rgba(203, 201, 199, 1)
+	);
+	text-align: right;
+	padding: 1.5em 1em 1em 1.3em;
+	align-self: flex-end;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.home-description i {
+	color: rgba(141, 129, 125, 1);
+	text-shadow: 1px -1px #000;
+}
+.home-description p {
+	font-size: 0.7rem;
+}
+
+.services-container {
+	display: flex;
+	font-size: 11px;
+}
+
+.services {
+	flex: 0 1 70%;
+	background-color: rgba(242, 240, 243, 1);
+}
+
+.services-description {
+	padding: 3em 4em 2em;
+}
+.services-description h2 {
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+}
+.services-description ul li {
+	padding: 0.5em;
+}
+
+.services-description ul span {
+	text-transform: uppercase;
+	font-weight: 700;
+	padding: 0 0.5em;
+}
+.services-description ul i {
+	font-size: 8px;
+	padding: 0.2em;
+	background-color: #000;
+	border-radius: 50%;
+}
+
+.contact {
+	padding: 3em 4em 2em;
+}
+.contact > p {
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 800;
+}
+
+.contact > p::after {
+	display: block;
+	content: "";
+	height: 0.5px;
+	background-color: #000;
+	width: 100%;
+}
+
+.alfabetic {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.5em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
+
+.alfabetic p::first-letter {
+	font-style: italic;
+}
+
+.contact input {
+	padding: 0.5em 1em;
+	width: 40%;
+	color: #fff;
+	background-color: rgba(186, 177, 173, 1);
+	border: 1px solid rgba(186, 177, 173, 1);
+	border-radius: 0.5em;
+	font-size: 8px;
+}
+
+.contact input::placeholder {
+	font-weight: bold;
+	text-align: left;
+	/* opacity: 0.5; */
+	color: #fff;
+}
+.contact button {
+	padding: 0.7em 2em;
+	color: #fff;
+	background-color: rgba(103, 120, 77, 1);
+	border: 1px solid rgba(103, 120, 77, 1);
+	border-radius: 0.5em;
+	font-size: 8px;
+}
+
+.aside {
+	flex: 0 1 30%;
+	background-color: rgba(186, 177, 173, 1);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 2em 1em;
+}
+
+.aside .card {
+	line-height: 1;
+}
+.aside .card span {
+	display: block;
+}
+
+.aside .card span:first-child {
+	color: #fff;
+	font-size: 50px;
+	font-weight: 100;
+}
+.aside .card span:last-child {
+	text-transform: uppercase;
+}

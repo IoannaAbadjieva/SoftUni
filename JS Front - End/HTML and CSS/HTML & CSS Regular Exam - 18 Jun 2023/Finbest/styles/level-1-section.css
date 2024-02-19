@@ -1,0 +1,23 @@
+.level-1-section {
+	padding: 5em;
+	display: flex;
+	justify-content: center;
+}
+
+.level-1-section h3 {
+	font-weight: 600;
+	padding-bottom: 1em;
+}
+
+.level-1-section p {
+	/* font-weight: 600; */
+	padding-bottom: 4em;
+}
+
+.info {
+	flex: 0 1 30%;
+	padding: 0 2em;
+	border-left: 1px solid rgba(219, 219, 219, 1);
+	border-right: 1px solid rgba(219, 219, 219, 1);
+	text-align: center;
+}

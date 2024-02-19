@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	box-sizing: border-box;
+	font: 14px/1.2 "Inter", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: inherit;
+}
+
+body {
+	font: inherit;
+	background: url("images/background.jpg");
+	padding: 3em 6em;
+}
+
+.site {
+	max-width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	gap: 2em;
+}
+
+.card-list {
+	flex: 0 1 66%;
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+}
+
+.card,
+.card-aside {
+	background-color: #fff;
+}
+.card i,
+.card-aside i {
+	font-size: 50px;
+}
+
+.card {
+	display: flex;
+	gap: 1.5em;
+	padding: 3em 2.5em 2em;
+}
+
+.card .content {
+	flex: 0 1 70%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.card .image-wrapper {
+	flex: 0 1 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.card .image-wrapper img {
+	display: block;
+	width: 11em;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	align-self: center;
+	object-fit: cover;
+}
+
+.card-aside {
+	flex: 0 1 33%;
+	padding: 4em 2em 2em;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.author-info {
+	display: flex;
+	gap: 1em;
+	align-items: center;
+}
+
+.author-info .image-wrapper {
+	flex: 0 1 20%;
+}
+
+.author-name-position {
+	display: flex;
+	flex-direction: column;
+}
+
+p.author-name {
+	font-size: 1.3em;
+	font-weight: 600;
+}
+
+.card-aside .image-wrapper img {
+	display: block;
+	width: 6em;
+	aspect-ratio: 1;
+	border-radius: 50%;
+	align-self: center;
+	object-fit: cover;
+}
+
+.card-aside i {
+	font-size: 70px;
+}
+
+.author-position {
+	font-size: 0.8em;
+}

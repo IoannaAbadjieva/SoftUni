@@ -1,0 +1,52 @@
+.site-header {
+	background: url("../images/background.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-position: center -11rem;
+}
+
+.top-bar {
+	display: flex;
+	justify-content: space-between;
+	padding: 1.5em 3.5em 1em;
+	background-color: rgba(217, 217, 217, 1);
+	align-items: center;
+}
+
+.nav-bar {
+	display: flex;
+	gap: 2em;
+}
+
+.top-bar button {
+	padding: 0.5em 1em;
+}
+
+.banner {
+	padding: 6rem 14rem;
+}
+
+.banner h1 {
+	font-weight: 800;
+	max-width: 10em;
+	padding-bottom: 2em;
+	line-height: 1.2;
+}
+
+.banner p {
+	color: #fff;
+	max-width: 32em;
+	padding-bottom: 4em;
+	font-weight: bold;
+	font-size: 1.2rem;
+}
+
+.banner a {
+	display: inline-block;
+	padding: 1em 2em;
+	font-size: 11px;
+	line-height: 1;
+	background-color: #000;
+	border-radius: 0.2em;
+	color: #fff;
+}

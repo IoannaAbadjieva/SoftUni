@@ -1,0 +1,37 @@
+.footer-section {
+	display: flex;
+}
+
+.footer-image,
+.form {
+	flex: 0 1 50%;
+}
+
+.footer-image img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 2em;
+	justify-content: center;
+	padding: 0 10em 0 5em;
+}
+
+.form h3 {
+	font-weight: 700;
+}
+
+#email {
+	width: 50%;
+	padding: 1em;
+	border-color: lightgray;
+	border-radius: 0.5em;
+}
+
+#send-btn {
+	width: 35%;
+}

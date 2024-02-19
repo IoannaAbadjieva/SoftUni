@@ -1,0 +1,129 @@
+.level-3-section {
+	background-color: rgba(243, 245, 250, 1);
+	padding: 2em 0;
+	text-align: center;
+}
+
+.level-3-section h3 {
+	font-weight: 700;
+	padding: 1em 0 2em;
+}
+
+.level-3-section i {
+	color: #000;
+}
+
+#pricing-plans {
+	display: inline-block;
+	background-color: rgba(173, 226, 223, 1);
+	padding: 0.5em 1em;
+	border-radius: 0.3em;
+}
+
+.pricing {
+	display: flex;
+	/* font-size: 14px; */
+	border-radius: 0.5em;
+}
+
+.pricing p,
+.pricing h2,
+.pricing li {
+	text-align: left;
+}
+
+.pricing h5 {
+	font-weight: 600;
+}
+.pricing i {
+	padding-right: 0.5em;
+}
+
+.plans {
+	display: flex;
+	flex: 0 1 60%;
+	background-color: #fff;
+	padding: 2em 0;
+}
+
+.card {
+	flex: 0 1 33%;
+	padding: 0 2.5em;
+}
+
+.card h2 {
+	font-weight: 600;
+	padding: 0.5em 0;
+}
+
+.card ul {
+	padding: 1.5em 0 2em;
+	line-height: 2;
+	font-size: 0.95em;
+}
+
+/* 
+.card h2::after {
+	display: block;
+	content: "";
+	height: 0.02em;
+	width: 100%;
+	border-radius: 0.15em;
+	background-color: rgba(0, 0, 0, 0.3);
+} */
+
+.card.middle {
+	border: 1px rgba(219, 219, 219, 1);
+	border-style: none solid;
+}
+
+.card span {
+	font-size: 16px;
+	padding-right: 1em;
+}
+
+.card a {
+	display: block;
+	color: #000;
+	background-color: rgba(173, 226, 223, 1);
+	padding: 0.7em 0;
+	border-radius: 0.5em;
+}
+
+.card a:hover {
+	background-color: rgba(173, 226, 223, 0.3);
+	color: #fff;
+}
+
+.description {
+	flex: 0 1 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: rgba(173, 226, 223, 1);
+	/* text-align: left; */
+
+	padding: 2em;
+}
+
+.description p {
+	font-size: 1.6em;
+	font-weight: 600;
+}
+
+.description ul {
+	padding: 2em 0;
+	line-height: 2;
+}
+
+.description a {
+	display: block;
+	background-color: #000;
+	padding: 0.7em 0;
+	border-radius: 0.5em;
+}
+
+.description a:hover {
+	color: rgba(173, 226, 223, 1);
+	/* font-size: 0.8em; */
+}
